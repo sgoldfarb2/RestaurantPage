@@ -1,0 +1,73 @@
+.mainphoto{
+  min-width: 100%;
+  height: 600px;
+  overflow: hidden;
+  margin: 0px;
+  }
+
+
+  .imageposition{
+    background-image: url("https://scontent.fhou1-2.fna.fbcdn.net/v/t1.0-9/33038870_2045510782354389_6864564925465886720_n.jpg?_nc_cat=109&_nc_ht=scontent.fhou1-2.fna&oh=91ff6552ed5de7e3e31db1211143fc31&oe=5D5CDBA7");
+  width: 100%;
+  position: relative;
+  /* top: -5px; */
+  margin: 0px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  .textsection{
+    width: 100%;
+    position: relative;
+    height: 600px;
+    font-family: handwriting-draft_free-version;
+  }
+
+  .aboutus{
+    /* color: #2B618C; */
+  }
+
+  .imageposition2{
+  background-image: url("https://scontent.fhou1-1.fna.fbcdn.net/v/t1.0-9/26167769_1978877849017683_4213368378998377477_n.jpg?_nc_cat=101&_nc_ht=scontent.fhou1-1.fna&oh=9c6b057f80a246f07658ad5317f4a61e&oe=5D65F596");
+  position: relative;
+  margin:0px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  .overlay{
+  background-color: white;
+  min-width: 100%;
+  position: absolute;
+  height: 600px;
+  z-index: 2;
+  top: 0px;
+  left: 0px;
+  opacity: .2;
+  }
+
+  .overlay2{
+  background-color: white;
+  min-width: 100%;
+  position: absolute;
+  height: 600px;
+  z-index: 2;
+  top: 1200px;
+  left: 0px;
+  opacity: .3;
+  }
+
+
+  .contact{
+font-family: handwriting-draft_free-version;
+
+  }
+
+  .contactform{
+font-family: 'Courier New', Courier, monospace;
+color: white;
+  }
